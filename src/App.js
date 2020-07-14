@@ -1,21 +1,13 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import { RadioPage } from './pages';
+import Routes from './routes';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route exact path="/radio" component={RadioPage} />
-          <Redirect from="/" to="/radio" />
-        </Switch>
+        <Routes />
       </Router>
     </div>
   );
