@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -202,9 +203,17 @@ export default function PrimarySearchAppBar(props) {
               <CloseIcon />
             </IconButton>
           )}
-          <Typography className={classes.title} variant="h6" noWrap>
-            Material-UI
+
+          <Typography
+            component={Link}
+            to="/"
+            className={classes.title}
+            variant="h6"
+            noWrap
+          >
+            RADIO
           </Typography>
+
           <div className={classes.search}>
             <Autocomplete
               openOnFocus //<---here

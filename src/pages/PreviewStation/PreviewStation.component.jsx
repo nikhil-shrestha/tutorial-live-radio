@@ -78,8 +78,8 @@ function PreviewStation(props) {
         </div>
         <CardMedia
           className={classes.cover}
-          image="/static/images/cards/live-from-space.jpg"
-          title="Live from space album cover"
+          image={collection.image}
+          title={collection.text}
         />
       </Card>
       <PlayerBar url={collection?.station_data?.url} />
