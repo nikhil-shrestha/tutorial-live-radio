@@ -5,6 +5,8 @@ import { RouteWithLayout } from './components';
 import { Main as MainLayout } from '../layouts';
 
 import { RadioPage, PreviewStationPage } from '../pages';
+import { RadioLinks } from '../pages/Radio/components/RadioLinks';
+import RadioDiv from '../pages/Radio/components/RadioLinks/RadioDiv';
 
 const Routes = () => {
   return (
@@ -20,6 +22,12 @@ const Routes = () => {
         component={PreviewStationPage}
         layout={MainLayout}
         path="/radio/:stationId"
+      />
+      <RouteWithLayout
+        exact
+        component={RadioDiv}
+        layout={MainLayout}
+        path="/radio/california/:stationId"
       />
       <Redirect from="/" to="/radio" />
     </Switch>

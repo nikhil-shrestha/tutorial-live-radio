@@ -1,0 +1,156 @@
+[
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Bakersfield",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100087",
+        "guide_id": "r100087"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Chico",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100195",
+        "guide_id": "r100195"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Fresno",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100068",
+        "guide_id": "r100068"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Los Angeles",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100002",
+        "guide_id": "r100002"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Merced",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100189",
+        "guide_id": "r100189"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Modesto",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100122",
+        "guide_id": "r100122"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Monterey-Salinas-Santa Cruz",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100075",
+        "guide_id": "r100075"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Oxnard-Ventura",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100119",
+        "guide_id": "r100119"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Palm Springs",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100162",
+        "guide_id": "r100162"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Redding",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100227",
+        "guide_id": "r100227"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Riverside-San Bernardino",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100028",
+        "guide_id": "r100028"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Sacramento",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100027",
+        "guide_id": "r100027"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "San Diego",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100017",
+        "guide_id": "r100017"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "San Francisco",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100004",
+        "guide_id": "r100004"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "San Jose",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100030",
+        "guide_id": "r100030"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "San Luis Obispo",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100170",
+        "guide_id": "r100170"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Santa Barbara",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100199",
+        "guide_id": "r100199"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Santa Maria-Lompoc",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100205",
+        "guide_id": "r100205"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Santa Rosa",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100107",
+        "guide_id": "r100107"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Stockton",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100088",
+        "guide_id": "r100088"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Victor Valley",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100135",
+        "guide_id": "r100135"
+    },
+    {
+        "element": "outline",
+        "type": "link",
+        "text": "Visalia-Tulare-Hanford",
+        "URL": "http://opml.radiotime.com/Browse.ashx?id=r100104",
+        "guide_id": "r100104"
+    }
+]

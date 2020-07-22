@@ -46,7 +46,7 @@ const useStyles = makeStyles({
 export default function RadioCard(props) {
   const classes = useStyles();
 
-  const { text, subtext, image, guide_id } = props;
+  const { text, subtext, image, guide_id } = props.data;
 
   return (
     <Card className={classes.root}>

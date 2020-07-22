@@ -8,6 +8,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import { RadioGrid } from './components';
 
 import container from './Radio.container';
+import RadioLinks from './components/RadioLinks/RadioLinks';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -36,7 +37,8 @@ function RadioPage(props) {
       <Paper className={classes.paper}>
         <h3>Local Radio List</h3>
         <Grid container justify="center" spacing={spacing}>
-          {getComponent()}
+          {/* {getComponent()} */}
+          <RadioLinks />
         </Grid>
       </Paper>
     </Container>
