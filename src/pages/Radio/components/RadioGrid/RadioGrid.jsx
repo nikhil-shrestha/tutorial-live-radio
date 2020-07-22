@@ -11,8 +11,8 @@ const RadioGrid = (props) => {
 
   return (
     <>
-      {radioState.results.length > 0 &&
-        radioState.results.map((obj) => (
+      {radioState.length > 0 &&
+        radioState.map((obj) => (
           <Grid key={obj.guide_id} item>
             <RadioGridItem {...obj} />
           </Grid>

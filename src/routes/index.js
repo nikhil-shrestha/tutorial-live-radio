@@ -4,16 +4,14 @@ import { Switch, Redirect } from 'react-router-dom';
 import { RouteWithLayout } from './components';
 import { Main as MainLayout } from '../layouts';
 
-import { RadioPage, PreviewStationPage } from '../pages';
-import { RadioLinks } from '../pages/Radio/components/RadioLinks';
-import RadioDiv from '../pages/Radio/components/RadioLinks/RadioDiv';
+import { RadioPage, PreviewStationPage, RadioList } from '../pages';
 
 const Routes = () => {
   return (
     <Switch>
       <RouteWithLayout
         exact
-        component={RadioPage}
+        component={RadioList}
         layout={MainLayout}
         path="/radio"
       />
@@ -25,7 +23,7 @@ const Routes = () => {
       />
       <RouteWithLayout
         exact
-        component={RadioDiv}
+        component={RadioPage}
         layout={MainLayout}
         path="/radio/california/:stationId"
       />
